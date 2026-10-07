@@ -2,6 +2,7 @@ import json
 import re
 from pathlib import Path
 import pandas as pd
+from planner import plan_question
 
 ROOT = Path(__file__).resolve().parents[1]
 
