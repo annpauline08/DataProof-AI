@@ -1,0 +1,169 @@
+{
+  "tables": {
+    "customers": {
+      "rows": 31,
+      "columns": [
+        "customer_id",
+        "name",
+        "email",
+        "region"
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "data_types": {
+        "customer_id": "str",
+        "name": "str",
+        "email": "str",
+        "region": "str"
+      }
+    },
+    "fx_rates": {
+      "rows": 12,
+      "columns": [
+        "month",
+        "currency",
+        "rate_to_usd"
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "data_types": {
+        "month": "str",
+        "currency": "str",
+        "rate_to_usd": "float64"
+      }
+    },
+    "orders": {
+      "rows": 121,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "currency",
+        "order_total"
+      ],
+      "missing_cells": 1,
+      "duplicate_rows": 1,
+      "data_types": {
+        "order_id": "str",
+        "customer_id": "str",
+        "product_id": "str",
+        "order_date": "str",
+        "quantity": "float64",
+        "currency": "str",
+        "order_total": "str"
+      }
+    },
+    "products": {
+      "rows": 10,
+      "columns": [
+        "product_id",
+        "name",
+        "category",
+        "price",
+        "weight",
+        "weight_unit"
+      ],
+      "missing_cells": 0,
+      "duplicate_rows": 0,
+      "data_types": {
+        "product_id": "str",
+        "name": "str",
+        "category": "str",
+        "price": "int64",
+        "weight": "float64",
+        "weight_unit": "str"
+      }
+    }
+  },
+  "duplicate_orders": [
+    "O00021"
+  ],
+  "ghost_customers": [
+    "C9999"
+  ],
+  "ghost_products": [
+    "P9999"
+  ],
+  "duplicate_customer_identities": [
+    "user5@example.com"
+  ],
+  "currency": {
+    "order_currencies": [
+      "EUR",
+      "INR",
+      "USD"
+    ],
+    "fx_currencies": [
+      "EUR",
+      "INR"
+    ],
+    "missing_fx_currencies": []
+  },
+  "ambiguous_dates": [
+    {
+      "row": 11,
+      "value": "09/03/2025"
+    },
+    {
+      "row": 12,
+      "value": "04/06/2025"
+    },
+    {
+      "row": 13,
+      "value": "09/02/2025"
+    },
+    {
+      "row": 14,
+      "value": "06/02/2025"
+    },
+    {
+      "row": 15,
+      "value": "02/25/2025"
+    }
+  ],
+  "weight_units": [
+    "kg",
+    "lb"
+  ],
+  "order_total_contradictions": {
+    "mismatch_count": 60,
+    "examples": [
+      {
+        "order_id": "O00001",
+        "expected": 225.0,
+        "reported": 236.25
+      },
+      {
+        "order_id": "O00002",
+        "expected": 250.0,
+        "reported": 262.5
+      },
+      {
+        "order_id": "O00003",
+        "expected": 1000.0,
+        "reported": 1050.0
+      },
+      {
+        "order_id": "O00004",
+        "expected": 80.0,
+        "reported": 84.0
+      },
+      {
+        "order_id": "O00005",
+        "expected": 500.0,
+        "reported": 525.0
+      }
+    ]
+  },
+  "months_without_fx_rates": [
+    "2025-07",
+    "2025-08",
+    "2025-09"
+  ],
+  "unavailable_fields": [
+    "profit",
+    "cost"
+  ]
+}

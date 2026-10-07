@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "wrong_order_totals": 60,
+  "duplicate_order_count": 1,
+  "ghost_customer_ids": [
+    "C9999"
+  ],
+  "ghost_product_ids": [
+    "P9999"
+  ],
+  "duplicate_identity_emails": [
+    "user5@example.com"
+  ],
+  "weight_units": [
+    "kg",
+    "lb"
+  ],
+  "fx_available_until": "2025-06",
+  "missing_fields": [
+    "profit",
+    "cost"
+  ]
+}

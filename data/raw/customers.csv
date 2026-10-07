@@ -1,0 +1,32 @@
+customer_id,name,email,region
+C0001,Customer 1,user1@example.com,North
+C0002,Customer 2,user2@example.com,South
+C0003,Customer 3,user3@example.com,East
+C0004,Customer 4,user4@example.com,West
+C0005,Customer 5,USER5@EXAMPLE.COM,North
+C0006,Customer 6,user6@example.com,South
+C0007,Customer 7,user7@example.com,East
+C0008,Customer 8,user8@example.com,West
+C0009,Customer 9,user9@example.com,North
+C0010,Customer 10,user10@example.com,South
+C0011,Customer 11,user11@example.com,East
+C0012,Customer 12,user12@example.com,West
+C0013,Customer 13,user13@example.com,North
+C0014,Customer 14,user14@example.com,South
+C0015,Customer 15,user15@example.com,East
+C0016,Customer 16,user16@example.com,West
+C0017,Customer 17,user17@example.com,North
+C0018,Customer 18,user18@example.com,South
+C0019,Customer 19,user19@example.com,East
+C0020,Customer 20,user20@example.com,West
+C0021,Customer 21,user21@example.com,North
+C0022,Customer 22,user22@example.com,South
+C0023,Customer 23,user23@example.com,East
+C0024,Customer 24,user24@example.com,West
+C0025,Customer 25,user25@example.com,North
+C0026,Customer 26,user26@example.com,South
+C0027,Customer 27,user27@example.com,East
+C0028,Customer 28,user28@example.com,West
+C0029,Customer 29,user29@example.com,North
+C0030,Customer 30,user30@example.com,South
+C0031,Customer 5 Duplicate,user5@example.com,North

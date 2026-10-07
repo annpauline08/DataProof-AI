@@ -1,0 +1,11 @@
+product_id,name,category,price,weight,weight_unit
+P001,Product 1,Office,40,1,kg
+P002,Product 2,Home,75,2,lb
+P003,Product 3,Tech,120,4,kg
+P004,Product 4,Office,250,6,lb
+P005,Product 5,Home,25,0.5,kg
+P006,Product 6,Tech,40,1,lb
+P007,Product 7,Office,75,2,kg
+P008,Product 8,Home,120,4,lb
+P009,Product 9,Tech,250,6,kg
+P010,Product 10,Office,25,0.5,lb
