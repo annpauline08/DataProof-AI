@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which customer had the highest order total?",
+    "expected": "answer"
+  },
+  {
+    "question": "Who has the highest order total?",
+    "expected": "answer"
+  },
+  {
+    "question": "Which region had the highest order total?",
+    "expected": "answer"
+  },
+  {
+    "question": "Which region had the highest order value?",
+    "expected": "answer"
+  },
+  {
+    "question": "How many orders are there?",
+    "expected": "answer"
+  },
+  {
+    "question": "What is the number of orders?",
+    "expected": "answer"
+  },
+  {
+    "question": "What is the total order value?",
+    "expected": "answer"
+  },
+  {
+    "question": "Give me the total order total.",
+    "expected": "answer"
+  },
+  {
+    "question": "What was the profit?",
+    "expected": "refuse"
+  },
+  {
+    "question": "Calculate profit for the company.",
+    "expected": "refuse"
+  },
+  {
+    "question": "What is the company's profit?",
+    "expected": "refuse"
+  },
+  {
+    "question": "What was the cost?",
+    "expected": "refuse"
+  },
+  {
+    "question": "Calculate the total revenue.",
+    "expected": "refuse"
+  },
+  {
+    "question": "What are the total sales?",
+    "expected": "refuse"
+  },
+  {
+    "question": "What was the revenue in March?",
+    "expected": "clarify"
+  },
+  {
+    "question": "What were sales in April?",
+    "expected": "clarify"
+  },
+  {
+    "question": "What happened to revenue in May?",
+    "expected": "clarify"
+  },
+  {
+    "question": "What was the revenue in June?",
+    "expected": "clarify"
+  },
+  {
+    "question": "What were the sales in July?",
+    "expected": "clarify"
+  },
+  {
+    "question": "What were the sales in September?",
+    "expected": "clarify"
+  },
+  {
+    "question": "Which customer had the highest order total after removing duplicate orders?",
+    "expected": "answer"
+  },
+  {
+    "question": "Which region had the highest order value after duplicate removal?",
+    "expected": "answer"
+  },
+  {
+    "question": "How many unique orders exist?",
+    "expected": "answer"
+  },
+  {
+    "question": "What is the total order amount?",
+    "expected": "refuse"
+  },
+  {
+    "question": "Tell me the company profit margin.",
+    "expected": "refuse"
+  }
+]
